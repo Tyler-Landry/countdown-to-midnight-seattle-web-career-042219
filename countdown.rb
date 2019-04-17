@@ -10,4 +10,7 @@ def countdown(x)
 end
 
 
-count
+def countdown_with_sleep(x)
+  counter = x 
+  while counter > 0 do
+    puts "#{counter} SECOND(S)!"
