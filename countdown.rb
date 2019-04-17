@@ -2,4 +2,5 @@
 
 def countdown(x)
   counter = x 
-end
+  while counter > 0
+  puts "#{x} SECOND(S)!"
